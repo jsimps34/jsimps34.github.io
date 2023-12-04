@@ -236,23 +236,11 @@ footer {
     color: #000000;
     position: relative;
     text-align: center;
+    padding-top: 100px;
 }
 #Nav p .navimg {
     width: 170px;
     height: auto;
-}
-
-
-
-
-
-#Content {
-    background-image: url(Images/unsorted/ice_earth.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 280px;
-    background-size: contain;
-
 }
 
 
@@ -261,6 +249,15 @@ footer {
     color: #0000FF;
 
 }
+.ice-earth {
+    background-image: url(Images/unsorted/ice_earth.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: auto;
+    height: 318px;
+}
+
 .navimg {
 
 }
@@ -271,4 +268,14 @@ footer {
     border: medium solid #000000;
     border-radius: 30px;
     background-color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#Content {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.ice-earth {
 }
