@@ -288,12 +288,14 @@ td ol li {
     font-size: 30px;
     padding-left: 20px;
     padding-right: 20px;
-}
-.text_section_size {
-    padding-left: 200px;
-    padding-right: 200px;
-
-
+    font-style: normal;
+    font-variant: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 76px;
+    margin-right: 76px;
+    margin-bottom: 76px;
+    margin-left: 76px;
 }
 
 tr td img {
