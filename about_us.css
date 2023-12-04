@@ -193,6 +193,25 @@ h1 {
     font-variant: normal;
     font-size: 150%;
 }
+#Content h2 {
+    color: #511B1B;
+    text-align: center;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 76px;
+    margin-right: 76px;
+    margin-bottom: 76px;
+    margin-left: 76px;
+    border: medium solid #000000;
+}
 
 
 
@@ -236,7 +255,9 @@ footer {
     color: #000000;
     position: relative;
     text-align: center;
+    margin-top: 117px;
 }
+
 #Nav p .navimg {
     width: 170px;
     height: auto;
@@ -251,28 +272,20 @@ footer {
 .navimg {
 
 }
-.food_table {
-    padding-top: 6px;
-    padding-right: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    text-align: center;
-    border-radius: 12px;
-    background-color: #FFFFFF;
-    font-size: 20px;
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 
-}
-tr td img {
-    height: auto;
-    width: 94%;
-    margin-top: 4px;
-}
-.food_text {
+
+#Content figure .santa_ceo {
+    color: #FF0000;
     text-align: center;
-    color: #511B1B;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    border: medium solid #000000;
-    border-radius: 30px;
-    background-color: #FFFFFF;
+    white-space: pre-line;
+}
+
+#Content figure {
+    background-image: url(Images/unsorted/santa_claus.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: auto;
+    height: 150px;
 }

@@ -264,3 +264,11 @@ footer {
 .navimg {
 
 }
+.index_text {
+    text-align: center;
+    color: #511B1B;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    border: medium solid #000000;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
