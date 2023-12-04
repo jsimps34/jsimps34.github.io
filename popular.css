@@ -262,13 +262,13 @@ footer {
 }
 
 tr td ol {
-    padding-right: 34px;
+    padding-right: 60px;
     width: 160px;
-    line-height: 71pt;
+    line-height: 80px;
     font-size: 20px;
     color: #000000;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    text-align: center;
+    text-align: left;
 
 }
 
