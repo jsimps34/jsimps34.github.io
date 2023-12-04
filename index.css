@@ -279,6 +279,9 @@ footer {
     margin-right: 76px;
     margin-bottom: 76px;
     margin-left: 76px;
+    width: 70%;
+    height: auto;
+    clear: right;
 }
 
 .ice-earth {
