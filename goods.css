@@ -262,6 +262,8 @@ footer {
     text-align: center;
     font-size: 20px;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 tr td img {
     height: auto;
@@ -282,11 +284,9 @@ tr td img {
     font-variant: normal;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 76px;
-    margin-right: 76px;
-    margin-bottom: 76px;
-    margin-left: 76px;
     width: 70%;
     height: auto;
     clear: right;
+    margin-left: auto;
+    margin-right: auto;
 }
