@@ -262,7 +262,7 @@ footer {
 }
 
 tr td ol {
-    padding-right: 60px;
+    padding-right: 30px;
     width: 160px;
     line-height: 80px;
     font-size: 20px;
@@ -271,6 +271,10 @@ tr td ol {
     text-align: left;
 
 }
+td ol li {
+
+}
+
 
 
 .popular_text {
