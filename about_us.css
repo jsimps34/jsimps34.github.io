@@ -194,24 +194,24 @@ h1 {
     font-size: 150%;
 }
 #Content h2 {
-    color: #511B1B;
-    text-align: center;
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    font-style: normal;
-    font-variant: normal;
-    font-size: 30px;
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    border: medium solid #000000;
-    width: 70%;
-    height: auto;
-    clear: right;
-    margin-right: auto;
-    margin-left: auto;
+	color: #511B1B;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 30px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border: medium solid #000000;
+	width: 70%;
+	height: auto;
+	clear: right;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
@@ -274,20 +274,26 @@ footer {
 .navimg {
 
 }
-
-
-#Content figure .santa_ceo {
-    color: #FF0000;
-    text-align: center;
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    white-space: pre-line;
+#Content section form {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #000000;
+	font-size: 20px;
+	border: medium solid #000000;
+	border-radius: 30px;
+	background-color: #FFFFFF;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10px;
+	width: 300px;
+	margin-bottom: 50px;
 }
-
-#Content figure {
-    background-image: url(Images/unsorted/santa_claus.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    width: auto;
-    height: 150px;
+.ceo {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #E5141A;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
