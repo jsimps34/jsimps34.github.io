@@ -1,4 +1,4 @@
-<!--/John Simpson 12/5/2023-->
+/John Simpson 12/5/2023
 @charset "utf-8";
 
 .snowflake {
@@ -204,7 +204,7 @@
 }
 
 .section_header {
-    background-image: url(Images/background/banner_background.png);
+    background-image: url(../Images/background/banner_background.png);
     background-repeat: repeat;
     background-size: contain;
     height: auto;
@@ -216,7 +216,7 @@
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: relative;
     color: #000000;
-    background-image: url(Images/unsorted/logo.png);
+    background-image: url(../Images/unsorted/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: border-box;
@@ -338,4 +338,7 @@ tr td img {
     border: medium double #000000;
     background-color: #FFFFFF;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
 }
