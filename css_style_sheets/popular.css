@@ -1,0 +1,344 @@
+<!--/John Simpson 12/5/2023-->
+@charset "utf-8";
+
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+
+.snowflake, .snowflake .inner {
+  animation-iteration-count: infinite;
+  animation-play-state: running
+}
+
+@keyframes snowflakes-fall {
+  0% {
+    transform: translateY(0)
+  }
+  100% {
+    transform: translateY(110vh)
+  }
+}
+
+@keyframes snowflakes-shake {
+  0%, 100% {
+    transform: translateX(0)
+  }
+  50% {
+    transform: translateX(80px)
+  }
+}
+
+.snowflake {
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  animation-name: snowflakes-shake;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out
+}
+
+.snowflake .inner {
+  animation-duration: 8s;
+  animation-name: snowflakes-fall;
+  animation-timing-function: linear
+}
+
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  animation-delay: 0s
+}
+
+.snowflake:nth-of-type(0) .inner {
+  animation-delay: 0s
+}
+
+.snowflake:first-of-type {
+  left: 10%;
+  animation-delay: 1s
+}
+
+.snowflake:first-of-type .inner, .snowflake:nth-of-type(8) .inner {
+  animation-delay: 1s
+}
+
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  animation-delay: .5s
+}
+
+.snowflake:nth-of-type(2) .inner, .snowflake:nth-of-type(6) .inner {
+  animation-delay: 6s
+}
+
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  animation-delay: 2s
+}
+
+.snowflake:nth-of-type(11) .inner, .snowflake:nth-of-type(3) .inner {
+  animation-delay: 4s
+}
+
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  animation-delay: 2s
+}
+
+.snowflake:nth-of-type(10) .inner, .snowflake:nth-of-type(4) .inner {
+  animation-delay: 2s
+}
+
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  animation-delay: 3s
+}
+
+.snowflake:nth-of-type(5) .inner {
+  animation-delay: 8s
+}
+
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  animation-delay: 2s
+}
+
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  animation-delay: 1s
+}
+
+.snowflake:nth-of-type(7) .inner {
+  animation-delay: 2.5s
+}
+
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  animation-delay: 0s
+}
+
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  animation-delay: 1.5s
+}
+
+.snowflake:nth-of-type(9) .inner {
+  animation-delay: 3s
+}
+
+.snowflake:nth-of-type(10) {
+  left: 100%;
+  animation-delay: 0s
+}
+
+.snowflake:nth-of-type(11) {
+  left: 5%;
+  animation-delay: 0.5s
+}
+
+.snowflake:nth-of-type(10) {
+  left: 15%;
+  animation-delay: 1s
+}
+
+.snowflake:nth-of-type(10) .inner {
+  animation-delay: 3s
+}
+
+.snowflake:nth-of-type(11) {
+  left: 25%;
+  animation-delay: 0s
+}
+
+.snowflake:nth-of-type(12) {
+  left: 35%;
+  animation-delay: 3.5s
+}
+
+.snowflake:nth-of-type(13) {
+  left: 45%;
+  animation-delay: 1s
+}
+
+.snowflake:nth-of-type(14) {
+  left: 85%;
+  animation-delay: 2.5s
+}
+
+.snowflake:nth-of-type(14) .inner {
+  animation-delay: 0s
+}
+
+.snowflake:nth-of-type(15) {
+  left: 95%;
+  animation-delay: 0s
+}
+
+.snowflake:nth-of-type(16) {
+  left: 110%;
+  animation-delay: 2.5s
+}
+
+.snowflake:nth-of-type(15) {
+  left: 120%;
+  animation-delay: 1s
+}
+
+.snowflake:nth-of-type(15) .inner {
+  animation-delay: 3s
+}
+
+.snowflake:nth-of-type(16) {
+  left: 130%;
+  animation-delay: 0s
+}
+
+.snowflake:nth-of-type(17) {
+  left: 140%;
+  animation-delay: 0.5s
+}
+
+.section_header {
+    background-image: url(Images/background/banner_background.png);
+    background-repeat: repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+
+.section_header header {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    color: #000000;
+    background-image: url(Images/unsorted/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center center;
+    width: auto;
+    height: 190px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: #00A651;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 150%;
+}
+
+#Footer p {
+    color: #76217C;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    color: #000000;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #A3DBFF;
+}
+
+nav {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    font-variant: normal;
+    color: #FF0000;
+    position: relative;
+    opacity: 1;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 8px #00A651;
+}
+
+footer {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#Nav p .navimg {
+    width: 170px;
+    height: auto;
+}
+
+#Footer a {
+    text-decoration: none;
+    color: #0000FF;
+
+}
+
+.popular_table {
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    clear: both;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+
+tr td ol {
+    padding-right: 30px;
+    width: 160px;
+    line-height: 80px;
+    font-size: 20px;
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: left;
+}
+
+.popular_text {
+    text-align: center;
+    color: #511B1B;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    border: medium solid #000000;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+    font-variant: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    height: auto;
+    clear: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr td img {
+    height: auto;
+    width: 94%;
+    padding-top: 15px;
+    padding-left: 2px;
+}
+
+.popular_table {
+    margin-left: auto;
+    margin-right: auto;
+}
